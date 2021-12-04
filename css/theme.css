@@ -9,6 +9,11 @@ Theme Version:	9.2.0
 	}
 }
 
+@font-face {
+    font-family: marshalDead;
+    src: url(fonts/MarshalTheDead-ywjxM.ttf);
+}
+
 html {
 	direction: ltr;
 	overflow-x: hidden;
