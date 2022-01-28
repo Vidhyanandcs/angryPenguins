@@ -2,3 +2,22 @@
     font-family: marshalDead;
     src: url(fonts/MarshalTheDead-ywjxM.ttf);
 }
+
+.mob-remove{
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .mob-remove{
+        display: none !important;
+    }
+
+    html.photography-demo-2 .tp-caption-photo-label {
+		font-size: 1.8rem !important;
+		font-weight: 700 !important;
+		text-transform: uppercase !important;
+		padding-bottom: 0;
+		text-shadow: none;
+        overflow-wrap: break-word !important;
+}
+}
